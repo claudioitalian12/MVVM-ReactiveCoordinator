@@ -27,9 +27,4 @@ class OnboardViewModel {
         onboardView = viewController
         onboardView?.setViewModel(onboardViewModel: self)
     }
-    
-    // MARK: method
-    func settingsController() {
-        self.makeHome.onNext(())
-    }
 }
