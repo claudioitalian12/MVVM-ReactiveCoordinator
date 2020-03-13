@@ -3,27 +3,45 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D5B2F4D241BD3E600D39E32 /* OnboardCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5B2F4C241BD3E600D39E32 /* OnboardCoordinator.swift */; };
+		5D5B2F4F241BD43D00D39E32 /* OnboardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5B2F4E241BD43D00D39E32 /* OnboardVC.swift */; };
+		5D5B2F51241BD4F800D39E32 /* OnboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5B2F50241BD4F800D39E32 /* OnboardViewModel.swift */; };
+		5D5B2F58241BD80D00D39E32 /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5B2F57241BD80D00D39E32 /* HomeCoordinator.swift */; };
+		5D5B2F5A241BD8A300D39E32 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5B2F59241BD8A300D39E32 /* HomeViewModel.swift */; };
+		5D5B2F5C241BD8BA00D39E32 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5B2F5B241BD8BA00D39E32 /* HomeVC.swift */; };
+		5D5B2F5E241BE87400D39E32 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5B2F5D241BE87400D39E32 /* Coordinator.swift */; };
+		5D5B2F63241BEBC200D39E32 /* BaseCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5B2F62241BEBC200D39E32 /* BaseCoordinator.swift */; };
+		5D5B2F69241BF09A00D39E32 /* BaseCoordinator+Navigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5B2F68241BF09A00D39E32 /* BaseCoordinator+Navigator.swift */; };
 		5DA4EEB92411596F00DA9DDE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA4EEB82411596F00DA9DDE /* AppDelegate.swift */; };
 		5DA4EEBB2411596F00DA9DDE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA4EEBA2411596F00DA9DDE /* SceneDelegate.swift */; };
-		5DA4EEBD2411596F00DA9DDE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA4EEBC2411596F00DA9DDE /* ViewController.swift */; };
-		5DA4EEC02411596F00DA9DDE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DA4EEBE2411596F00DA9DDE /* Main.storyboard */; };
 		5DA4EEC22411597100DA9DDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DA4EEC12411597100DA9DDE /* Assets.xcassets */; };
 		5DA4EEC52411597100DA9DDE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DA4EEC32411597100DA9DDE /* LaunchScreen.storyboard */; };
+		5DA4EECE2412405400DA9DDE /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA4EECD2412405400DA9DDE /* AppCoordinator.swift */; };
+		5DA4EED1241240FE00DA9DDE /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 5DA4EED0241240FE00DA9DDE /* RxSwift */; };
+		5DA4EED3241240FE00DA9DDE /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 5DA4EED2241240FE00DA9DDE /* RxCocoa */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5D5B2F4C241BD3E600D39E32 /* OnboardCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardCoordinator.swift; sourceTree = "<group>"; };
+		5D5B2F4E241BD43D00D39E32 /* OnboardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardVC.swift; sourceTree = "<group>"; };
+		5D5B2F50241BD4F800D39E32 /* OnboardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardViewModel.swift; sourceTree = "<group>"; };
+		5D5B2F57241BD80D00D39E32 /* HomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
+		5D5B2F59241BD8A300D39E32 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		5D5B2F5B241BD8BA00D39E32 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		5D5B2F5D241BE87400D39E32 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		5D5B2F62241BEBC200D39E32 /* BaseCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCoordinator.swift; sourceTree = "<group>"; };
+		5D5B2F68241BF09A00D39E32 /* BaseCoordinator+Navigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BaseCoordinator+Navigator.swift"; sourceTree = "<group>"; };
 		5DA4EEB52411596F00DA9DDE /* MVVM+ReactiveCoordinator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MVVM+ReactiveCoordinator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DA4EEB82411596F00DA9DDE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5DA4EEBA2411596F00DA9DDE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5DA4EEBC2411596F00DA9DDE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5DA4EEBF2411596F00DA9DDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5DA4EEC12411597100DA9DDE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5DA4EEC42411597100DA9DDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5DA4EEC62411597100DA9DDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DA4EECD2412405400DA9DDE /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,12 +49,99 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DA4EED3241240FE00DA9DDE /* RxCocoa in Frameworks */,
+				5DA4EED1241240FE00DA9DDE /* RxSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5D5B2F3C241BD18400D39E32 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				5DA4EEB82411596F00DA9DDE /* AppDelegate.swift */,
+				5DA4EEBA2411596F00DA9DDE /* SceneDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		5D5B2F3D241BD1EC00D39E32 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5D5B2F4E241BD43D00D39E32 /* OnboardVC.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5D5B2F3E241BD1F100D39E32 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				5D5B2F50241BD4F800D39E32 /* OnboardViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		5D5B2F3F241BD1FC00D39E32 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5D5B2F47241BD2CB00D39E32 /* OnboardViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5D5B2F3F241BD1FC00D39E32 /* Model */,
+				5D5B2F3E241BD1F100D39E32 /* ViewModel */,
+				5D5B2F3D241BD1EC00D39E32 /* View */,
+				5DA4EEE624125E6900DA9DDE /* OnboardCoordinator */,
+			);
+			path = OnboardViewController;
+			sourceTree = "<group>";
+		};
+		5D5B2F52241BD73A00D39E32 /* HomeController */ = {
+			isa = PBXGroup;
+			children = (
+				5D5B2F56241BD77600D39E32 /* Model */,
+				5D5B2F55241BD76D00D39E32 /* ViewModel */,
+				5D5B2F54241BD76500D39E32 /* View */,
+				5D5B2F53241BD75100D39E32 /* HomeCoordinator */,
+			);
+			path = HomeController;
+			sourceTree = "<group>";
+		};
+		5D5B2F53241BD75100D39E32 /* HomeCoordinator */ = {
+			isa = PBXGroup;
+			children = (
+				5D5B2F57241BD80D00D39E32 /* HomeCoordinator.swift */,
+			);
+			path = HomeCoordinator;
+			sourceTree = "<group>";
+		};
+		5D5B2F54241BD76500D39E32 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5D5B2F5B241BD8BA00D39E32 /* HomeVC.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5D5B2F55241BD76D00D39E32 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				5D5B2F59241BD8A300D39E32 /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		5D5B2F56241BD77600D39E32 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		5DA4EEAC2411596F00DA9DDE = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +161,50 @@
 		5DA4EEB72411596F00DA9DDE /* MVVM+ReactiveCoordinator */ = {
 			isa = PBXGroup;
 			children = (
-				5DA4EEB82411596F00DA9DDE /* AppDelegate.swift */,
-				5DA4EEBA2411596F00DA9DDE /* SceneDelegate.swift */,
-				5DA4EEBC2411596F00DA9DDE /* ViewController.swift */,
-				5DA4EEBE2411596F00DA9DDE /* Main.storyboard */,
+				5D5B2F3C241BD18400D39E32 /* Delegate */,
+				5DA4EECC2412400A00DA9DDE /* Coordinator */,
+				5DA4EED62412420800DA9DDE /* Controllers */,
 				5DA4EEC12411597100DA9DDE /* Assets.xcassets */,
 				5DA4EEC32411597100DA9DDE /* LaunchScreen.storyboard */,
 				5DA4EEC62411597100DA9DDE /* Info.plist */,
 			);
 			path = "MVVM+ReactiveCoordinator";
+			sourceTree = "<group>";
+		};
+		5DA4EECC2412400A00DA9DDE /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				5D5B2F5D241BE87400D39E32 /* Coordinator.swift */,
+				5D5B2F62241BEBC200D39E32 /* BaseCoordinator.swift */,
+				5D5B2F68241BF09A00D39E32 /* BaseCoordinator+Navigator.swift */,
+				5DA4EEE724125F5500DA9DDE /* AppCoordinator */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		5DA4EED62412420800DA9DDE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5D5B2F52241BD73A00D39E32 /* HomeController */,
+				5D5B2F47241BD2CB00D39E32 /* OnboardViewController */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		5DA4EEE624125E6900DA9DDE /* OnboardCoordinator */ = {
+			isa = PBXGroup;
+			children = (
+				5D5B2F4C241BD3E600D39E32 /* OnboardCoordinator.swift */,
+			);
+			path = OnboardCoordinator;
+			sourceTree = "<group>";
+		};
+		5DA4EEE724125F5500DA9DDE /* AppCoordinator */ = {
+			isa = PBXGroup;
+			children = (
+				5DA4EECD2412405400DA9DDE /* AppCoordinator.swift */,
+			);
+			path = AppCoordinator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +223,10 @@
 			dependencies = (
 			);
 			name = "MVVM+ReactiveCoordinator";
+			packageProductDependencies = (
+				5DA4EED0241240FE00DA9DDE /* RxSwift */,
+				5DA4EED2241240FE00DA9DDE /* RxCocoa */,
+			);
 			productName = "MVVM+ReactiveCoordinator";
 			productReference = 5DA4EEB52411596F00DA9DDE /* MVVM+ReactiveCoordinator.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +255,9 @@
 				Base,
 			);
 			mainGroup = 5DA4EEAC2411596F00DA9DDE;
+			packageReferences = (
+				5DA4EECF241240FE00DA9DDE /* XCRemoteSwiftPackageReference "RxSwift" */,
+			);
 			productRefGroup = 5DA4EEB62411596F00DA9DDE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,7 +274,6 @@
 			files = (
 				5DA4EEC52411597100DA9DDE /* LaunchScreen.storyboard in Resources */,
 				5DA4EEC22411597100DA9DDE /* Assets.xcassets in Resources */,
-				5DA4EEC02411596F00DA9DDE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +284,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5DA4EEBD2411596F00DA9DDE /* ViewController.swift in Sources */,
+				5D5B2F4D241BD3E600D39E32 /* OnboardCoordinator.swift in Sources */,
+				5D5B2F4F241BD43D00D39E32 /* OnboardVC.swift in Sources */,
+				5D5B2F69241BF09A00D39E32 /* BaseCoordinator+Navigator.swift in Sources */,
+				5D5B2F63241BEBC200D39E32 /* BaseCoordinator.swift in Sources */,
+				5D5B2F58241BD80D00D39E32 /* HomeCoordinator.swift in Sources */,
+				5D5B2F5A241BD8A300D39E32 /* HomeViewModel.swift in Sources */,
+				5D5B2F51241BD4F800D39E32 /* OnboardViewModel.swift in Sources */,
 				5DA4EEB92411596F00DA9DDE /* AppDelegate.swift in Sources */,
 				5DA4EEBB2411596F00DA9DDE /* SceneDelegate.swift in Sources */,
+				5D5B2F5E241BE87400D39E32 /* Coordinator.swift in Sources */,
+				5DA4EECE2412405400DA9DDE /* AppCoordinator.swift in Sources */,
+				5D5B2F5C241BD8BA00D39E32 /* HomeVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		5DA4EEBE2411596F00DA9DDE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5DA4EEBF2411596F00DA9DDE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		5DA4EEC32411597100DA9DDE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -338,6 +485,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5DA4EECF241240FE00DA9DDE /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5DA4EED0241240FE00DA9DDE /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5DA4EECF241240FE00DA9DDE /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+		5DA4EED2241240FE00DA9DDE /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5DA4EECF241240FE00DA9DDE /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 5DA4EEAD2411596F00DA9DDE /* Project object */;
 }
